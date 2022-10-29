@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  firstpro:
+    image: firstpro
+    build:
+      context: .
+      dockerfile: ./Dockerfile
